@@ -3,6 +3,7 @@ import format from 'date-fns/format';
 import { ptBR } from 'date-fns/locale';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import Link from 'next/link';
+import { useRouter } from 'next/router'
 import Image from 'next/image';
 import { api } from '../../services/api';
 import { convertDurantionToTimeString } from '../../utils/convertDurantToTimeString';
@@ -62,11 +63,29 @@ export default function Episode({ episode }: EpisodeProps) {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
+    const { data } = await api.get('episodes', {
+        params: {
+            _limit: 2,
+            _sort: 'published_at',
+            _order: 'desc'
+        }
+    })
+
+    const paths = data.map(episodes => {
+        return {
+            params: {
+                slug: episodes.id
+            }
+        }
+    })
+
     return {
-        paths: [],
+        paths,
         fallback: 'blocking'
     }
+
 }
+
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
     const { slug } = ctx.params;
