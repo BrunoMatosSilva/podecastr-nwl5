@@ -10,9 +10,7 @@
 
 ## Objetivo
 
-Nesse projeto desenvolvemos um Podcast a onde apresentamos as funcionalidades que podem ser desenvolvidas usando o React + Next.
-Utilizamos fundamentos essenciais no React que é o contexto, além de bibliotecas que auxiliam no controle e praticidade do aplicativo. 
-Controlar de forma nativa a tag Audio do HTML, ferramentas extras usadas SASS para o Css, Next com o foco da paginas Estaticas e Typescript para facilitar na manutenção futura definindo a propriedade de cada variavel usada.
+Nesse projeto desenvolvemos um Podcast a onde apresentamos as funcionalidades que podem ser desenvolvidas usando o React + Next, aplicando fundamentos essenciais do React que é o contexto, e do Next as facilidades como Router e getStatic, além de bibliotecas que auxiliam no controle e praticidade do aplicativo. Controlar de forma magistral a tag Audio do HTML, SASS para o Css e Typescript para facilitar na manutenção futura definindo a propriedade de cada variável da aplicação.
 
 ### Planos Futuros
 
