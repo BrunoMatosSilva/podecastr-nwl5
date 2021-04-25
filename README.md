@@ -1,3 +1,25 @@
+<h1 align="center">
+<img src="https://www.imagemhost.com.br/images/2021/04/25/logo_podecastr.png" alt="logo_podecastr" border="0" />
+</h1>
+
+<p align="center">🚀 O melhor para você ouvir, sempre </p>
+
+<h1 align="center">
+<img src="https://www.imagemhost.com.br/images/2021/04/25/Podecastr---App.gif" alt="Podecastr-App" border="0" />
+</h1>
+
+## Objetivo
+
+Nesse projeto desenvolvemos um Podcast a onde apresentamos as funcionalidades que podem ser desenvolvidas usando o React + Next.
+Utilizamos fundamentos essenciais no React que é o contexto, além de bibliotecas que auxiliam no controle e praticidade do aplicativo, 
+além de controla de forma nativa a tag Audio do HTML. Ferramentas extras usadas SASS para o Css, Next com o foco da paginas Estaticas e Typescript para facilitar na manutenção futura definindo a propriedade de cada variavel usada.
+
+### Planos Futuros
+
+* Deixa de Forma Responsiva;
+* Desenvolver Tema Dark;
+* Transformar em PWA.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
