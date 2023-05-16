@@ -1,6 +1,3 @@
-<h1 align="center">
-<img src="https://www.imagemhost.com.br/images/2021/04/25/logo_podecastr.png" alt="logo_podecastr" border="0" />
-</h1>
 
 <p align="center">🚀 O melhor para você ouvir, sempre </p>
 
